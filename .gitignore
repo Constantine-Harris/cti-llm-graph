@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data/Models (可按需保留或忽略)
+data/*
+!data/.keep
+datasets/*
+
+# Figures/Tables 中的大文件
+docs/figures/*
+docs/tables/*.tmp
